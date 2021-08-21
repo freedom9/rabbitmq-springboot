@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    host: 114.55.253.140
+    username: freedom
+    password: freedom
+    # 发布消息成功到交换器后会触发回调方法
+    publisher-confirm-type: CORRELATED
